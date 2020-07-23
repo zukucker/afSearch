@@ -1,6 +1,6 @@
 # afSearch
 ## About afSearch
-This skeleton contains a License file, fileheader and a basic README.
+just a little plugin to redirect to a landing page(emotion world) if theres no search results in shopware
 
 ## License
 
