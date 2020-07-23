@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../engine/Shopware/Components/Plugin/schema/config.xsd">
+
+    <elements>
+        <element type="combo">
+            <name>afSearch</name>
+            <label lang="de">Landingpage</label>
+            <label lang="en">Landingpage</label>
+            <description lang="de">Landingpage auswählen, welche gezeigt werden soll wenn keine Artikel gefunden werden.</description>
+            <description lang="en">Choose Landingpage which should shown if no articles were found.</description>
+            <store>Shopware.apps.Emotion.store.LandingPage</store>
+            <options>
+                <multiSelect>false</multiSelect>
+            </options>
+        </element>
+    </elements>
+
+</config>
